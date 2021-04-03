@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1946CD362615AA5100002061 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1946CD352615AA5100002061 /* LoginViewModel.swift */; };
+		1946CD3A2615AA6A00002061 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1946CD392615AA6A00002061 /* Dynamic.swift */; };
+		19574DF6261873F20024B725 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19574DF5261873F20024B725 /* PostsViewController.swift */; };
+		19574DF92618742A0024B725 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19574DF82618742A0024B725 /* FavouritesViewController.swift */; };
 		195C52892615A735007CA722 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C52882615A735007CA722 /* AppDelegate.swift */; };
 		195C528B2615A735007CA722 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C528A2615A735007CA722 /* SceneDelegate.swift */; };
-		195C528D2615A735007CA722 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C528C2615A735007CA722 /* ViewController.swift */; };
+		195C528D2615A735007CA722 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C528C2615A735007CA722 /* LoginViewController.swift */; };
 		195C52902615A735007CA722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195C528E2615A735007CA722 /* Main.storyboard */; };
 		195C52922615A736007CA722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195C52912615A736007CA722 /* Assets.xcassets */; };
 		195C52952615A736007CA722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195C52932615A736007CA722 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1946CD352615AA5100002061 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		1946CD392615AA6A00002061 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		19574DF5261873F20024B725 /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
+		19574DF82618742A0024B725 /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
 		195C52852615A735007CA722 /* LibertySolutionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibertySolutionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		195C52882615A735007CA722 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		195C528A2615A735007CA722 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		195C528C2615A735007CA722 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		195C528C2615A735007CA722 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		195C528F2615A735007CA722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		195C52912615A736007CA722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		195C52942615A736007CA722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +45,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1946CD342615AA3300002061 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1946CD352615AA5100002061 /* LoginViewModel.swift */,
+				195C528C2615A735007CA722 /* LoginViewController.swift */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		19574DF4261873CA0024B725 /* Homescreen */ = {
+			isa = PBXGroup;
+			children = (
+				19574DF5261873F20024B725 /* PostsViewController.swift */,
+				19574DF82618742A0024B725 /* FavouritesViewController.swift */,
+			);
+			path = Homescreen;
+			sourceTree = "<group>";
+		};
 		195C527C2615A735007CA722 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +82,15 @@
 		195C52872615A735007CA722 /* LibertySolutionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				19574DF4261873CA0024B725 /* Homescreen */,
+				1946CD342615AA3300002061 /* LoginScreen */,
 				195C52882615A735007CA722 /* AppDelegate.swift */,
 				195C528A2615A735007CA722 /* SceneDelegate.swift */,
-				195C528C2615A735007CA722 /* ViewController.swift */,
 				195C528E2615A735007CA722 /* Main.storyboard */,
 				195C52912615A736007CA722 /* Assets.xcassets */,
 				195C52932615A736007CA722 /* LaunchScreen.storyboard */,
 				195C52962615A736007CA722 /* Info.plist */,
+				1946CD392615AA6A00002061 /* Dynamic.swift */,
 			);
 			path = LibertySolutionDemo;
 			sourceTree = "<group>";
@@ -137,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				195C528D2615A735007CA722 /* ViewController.swift in Sources */,
+				19574DF6261873F20024B725 /* PostsViewController.swift in Sources */,
+				1946CD362615AA5100002061 /* LoginViewModel.swift in Sources */,
+				1946CD3A2615AA6A00002061 /* Dynamic.swift in Sources */,
+				195C528D2615A735007CA722 /* LoginViewController.swift in Sources */,
 				195C52892615A735007CA722 /* AppDelegate.swift in Sources */,
+				19574DF92618742A0024B725 /* FavouritesViewController.swift in Sources */,
 				195C528B2615A735007CA722 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
