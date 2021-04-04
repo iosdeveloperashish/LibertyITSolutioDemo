@@ -17,20 +17,19 @@ class LoginViewController: UIViewController {
     
     let viewModel = LoginViewModel()
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         title = viewModel.screenName
         viewModel.isValidForm.bind {[weak self] (success) in
             if success {
                 self?.loginButton.isEnabled = true
-                self?.loginButton.backgroundColor = .systemRed
+                self?.loginButton.backgroundColor = .systemTeal
             } else {
                 self?.loginButton.isEnabled = false
                 self?.loginButton.backgroundColor = .systemFill
             }
         }
-        
     }
     
 }

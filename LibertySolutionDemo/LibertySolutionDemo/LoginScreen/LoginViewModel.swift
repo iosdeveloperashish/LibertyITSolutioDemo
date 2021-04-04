@@ -48,5 +48,4 @@ class LoginViewModel {
             return updatedText.count <= 15
         }
     
-    
 }

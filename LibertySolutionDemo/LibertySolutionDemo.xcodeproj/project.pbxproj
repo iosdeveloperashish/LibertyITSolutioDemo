@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,12 +11,16 @@
 		1946CD3A2615AA6A00002061 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1946CD392615AA6A00002061 /* Dynamic.swift */; };
 		19574DF6261873F20024B725 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19574DF5261873F20024B725 /* PostsViewController.swift */; };
 		19574DF92618742A0024B725 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19574DF82618742A0024B725 /* FavouritesViewController.swift */; };
+		19574E00261891470024B725 /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19574DFF261891470024B725 /* PostsViewModel.swift */; };
+		19574E03261892760024B725 /* PostsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19574E02261892760024B725 /* PostsDataModel.swift */; };
 		195C52892615A735007CA722 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C52882615A735007CA722 /* AppDelegate.swift */; };
 		195C528B2615A735007CA722 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C528A2615A735007CA722 /* SceneDelegate.swift */; };
 		195C528D2615A735007CA722 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C528C2615A735007CA722 /* LoginViewController.swift */; };
 		195C52902615A735007CA722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195C528E2615A735007CA722 /* Main.storyboard */; };
 		195C52922615A736007CA722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195C52912615A736007CA722 /* Assets.xcassets */; };
 		195C52952615A736007CA722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195C52932615A736007CA722 /* LaunchScreen.storyboard */; };
+		196D75782618D73F00E09987 /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196D75772618D73F00E09987 /* HomeTabBarController.swift */; };
+		803BF0FB639A42AB19F53158 /* Pods_LibertySolutionDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A3A18E09FA638928EBC096 /* Pods_LibertySolutionDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,8 @@
 		1946CD392615AA6A00002061 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
 		19574DF5261873F20024B725 /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
 		19574DF82618742A0024B725 /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		19574DFF261891470024B725 /* PostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
+		19574E02261892760024B725 /* PostsDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsDataModel.swift; sourceTree = "<group>"; };
 		195C52852615A735007CA722 /* LibertySolutionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibertySolutionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		195C52882615A735007CA722 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		195C528A2615A735007CA722 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +38,10 @@
 		195C52912615A736007CA722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		195C52942615A736007CA722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		195C52962615A736007CA722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		196D75772618D73F00E09987 /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
+		6ED2B70A587D8AFCC31BB450 /* Pods-LibertySolutionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibertySolutionDemo.debug.xcconfig"; path = "Target Support Files/Pods-LibertySolutionDemo/Pods-LibertySolutionDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B6A3A18E09FA638928EBC096 /* Pods_LibertySolutionDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LibertySolutionDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F983A2FBAAB66CC4D7DE959C /* Pods-LibertySolutionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibertySolutionDemo.release.xcconfig"; path = "Target Support Files/Pods-LibertySolutionDemo/Pods-LibertySolutionDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				803BF0FB639A42AB19F53158 /* Pods_LibertySolutionDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +70,8 @@
 			children = (
 				19574DF5261873F20024B725 /* PostsViewController.swift */,
 				19574DF82618742A0024B725 /* FavouritesViewController.swift */,
+				19574DFF261891470024B725 /* PostsViewModel.swift */,
+				19574E02261892760024B725 /* PostsDataModel.swift */,
 			);
 			path = Homescreen;
 			sourceTree = "<group>";
@@ -68,6 +81,8 @@
 			children = (
 				195C52872615A735007CA722 /* LibertySolutionDemo */,
 				195C52862615A735007CA722 /* Products */,
+				5DBCC38E0E8C07FCFB46D332 /* Pods */,
+				93393341A7CE21B7CC40D0E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,8 +106,26 @@
 				195C52932615A736007CA722 /* LaunchScreen.storyboard */,
 				195C52962615A736007CA722 /* Info.plist */,
 				1946CD392615AA6A00002061 /* Dynamic.swift */,
+				196D75772618D73F00E09987 /* HomeTabBarController.swift */,
 			);
 			path = LibertySolutionDemo;
+			sourceTree = "<group>";
+		};
+		5DBCC38E0E8C07FCFB46D332 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6ED2B70A587D8AFCC31BB450 /* Pods-LibertySolutionDemo.debug.xcconfig */,
+				F983A2FBAAB66CC4D7DE959C /* Pods-LibertySolutionDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		93393341A7CE21B7CC40D0E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6A3A18E09FA638928EBC096 /* Pods_LibertySolutionDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 195C52992615A736007CA722 /* Build configuration list for PBXNativeTarget "LibertySolutionDemo" */;
 			buildPhases = (
+				EB75807C06E30EEC496F9FB7 /* [CP] Check Pods Manifest.lock */,
 				195C52812615A735007CA722 /* Sources */,
 				195C52822615A735007CA722 /* Frameworks */,
 				195C52832615A735007CA722 /* Resources */,
+				F71C710DC882CAAA5648B603 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +195,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EB75807C06E30EEC496F9FB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LibertySolutionDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F71C710DC882CAAA5648B603 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LibertySolutionDemo/Pods-LibertySolutionDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LibertySolutionDemo/Pods-LibertySolutionDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LibertySolutionDemo/Pods-LibertySolutionDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		195C52812615A735007CA722 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -169,6 +246,9 @@
 				1946CD362615AA5100002061 /* LoginViewModel.swift in Sources */,
 				1946CD3A2615AA6A00002061 /* Dynamic.swift in Sources */,
 				195C528D2615A735007CA722 /* LoginViewController.swift in Sources */,
+				196D75782618D73F00E09987 /* HomeTabBarController.swift in Sources */,
+				19574E03261892760024B725 /* PostsDataModel.swift in Sources */,
+				19574E00261891470024B725 /* PostsViewModel.swift in Sources */,
 				195C52892615A735007CA722 /* AppDelegate.swift in Sources */,
 				19574DF92618742A0024B725 /* FavouritesViewController.swift in Sources */,
 				195C528B2615A735007CA722 /* SceneDelegate.swift in Sources */,
@@ -315,6 +395,7 @@
 		};
 		195C529A2615A736007CA722 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ED2B70A587D8AFCC31BB450 /* Pods-LibertySolutionDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -333,6 +414,7 @@
 		};
 		195C529B2615A736007CA722 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F983A2FBAAB66CC4D7DE959C /* Pods-LibertySolutionDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
